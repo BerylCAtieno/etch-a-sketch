@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    background: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}

@@ -5,6 +5,41 @@
 
 h1 {
     text-align: center;
-    font-size: 48px;
-    margin-top: 50px;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#nav-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-grid-flex-container {
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+}
+
+#nav-div {
+    border: 1px solid red;
+    width: 300px;
+    height: 500px;
+}
+
+#grid-container {
+    width: 500px;
+    height: 500px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#color-mode-container {
+    display: flex;
+}
+
+.color-mode-items {
+    display: flex;
+    flex-direction: column;
 }

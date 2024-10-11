@@ -4,41 +4,9 @@
 
 // create flex container for the nav div and grid div
 
-const navGridContainer = document.createElement("div")
-navGridContainer.id = "nav-grid-flex-container"
-
-navGridContainer.style.display = "flex"
-navGridContainer.style.padding = "30px"
-navGridContainer.style.gap = "50px"
-
-document.body.appendChild(navGridContainer)
-
-// create navigation div
-
-const navDiv = document.createElement("div")
-navDiv.id = "nav-div"
-navDiv.className = "nav-elements-div"
-
-navDiv.style.border = "1px solid red"
-navDiv.style.width = "300px"
-navDiv.style.height = "500px"
-
-navGridContainer.appendChild(navDiv)
-
-// create and style grid container
-
-const gridContainerDiv = document.createElement("div")
-gridContainerDiv.className = "grid-flex-container"
-gridContainerDiv.id = "grid-container"
-
-gridContainerDiv.style.width = "500px"
-gridContainerDiv.style.height = "500px"
-gridContainerDiv.style.background = "white"
-gridContainerDiv.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.2)"
-gridContainerDiv.style.display = "flex"
-gridContainerDiv.style.flexWrap = "wrap"
-
-navGridContainer.appendChild(gridContainerDiv)
+const navGridContainer = document.getElementById("nav-grid-flex-container")
+const navDiv = document.getElementById("nav-div")
+const gridContainer = document.getElementById("grid-container")
 
 
 function createGrid(size) {

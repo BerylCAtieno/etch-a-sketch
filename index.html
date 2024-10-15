@@ -10,19 +10,22 @@
     <h1>Etch-A-Sketch</h1>
     <div id="nav-grid-flex-container">
         <div id="nav-div">
-            <H3 style="text-align: center;">Choose Mode</H3>
+            <H3 style="text-align: center; font-weight: 600;">Choose color mode</H3>
             <div id="color-mode-container">
                 <div class="color-mode-items">
-                    <button id="solid-mode-button"></button>
-                    <span class="mode-labels">SOLID</span>
+                    <div id="solid-mode-button"></div>
+                    <span class="mode-labels">Solid</span>
                 </div>
                 <div class="color-mode-items">
-                    <button id="rainbow-mode-button"></button>
-                    <span class="mode-labels">RAINBOW</span>
+                    <div id="rainbow-mode-button"></div>
+                    <span class="mode-labels">Rainbow</span>
                 </div>
             </div>
-            <button>Erasor</button>
-            <button>Clear</button>
+            <div>Erasor</div>
+            <div>Clear</div>
+            <label for="grid-size">Choose Grid Size:</label>
+            <input type="range" id="grid-size" min="8" max="32" value="4" step="8">
+            <span id="grid-value">8</span> x 8
         </div>
         <div id="grid-container"></div>
         <div id="instructions-container">

@@ -50,6 +50,7 @@ h1 {
     width: 80px;
     height: 80px;
     border-radius: 100%;
+    background-color: black;
 }
 
 .mode-labels {

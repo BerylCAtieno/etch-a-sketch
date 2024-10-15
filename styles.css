@@ -23,6 +23,10 @@ h1 {
 #nav-div {
     width: 300px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #grid-container {
@@ -38,6 +42,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
 }
 
 .color-mode-items {
@@ -57,5 +62,12 @@ h1 {
     width: 80px;
     height: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+#erasor, #clear {
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 40%;
 }
